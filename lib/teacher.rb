@@ -5,6 +5,7 @@ class Teacher<User
   prng = Random.new
 
   def teach
+    prng = Random.new
     KNOWLEDGE[prng(0..7)]
   end
 
