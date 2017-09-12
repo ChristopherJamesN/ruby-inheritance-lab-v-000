@@ -1,8 +1,8 @@
 class Student<User
+  attr_accessor :knowledge
 
-  def initialize(first_name="placeholder", last_name="placeholder")
-    @first_name = first_name
-    @last_name = last_name
+  def initialize
+    @knowledge = []
   end
-  
+
 end
